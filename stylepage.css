@@ -1,0 +1,206 @@
+
+
+body {
+    background-color: #DFCFBE;
+    color: #003366;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    background-color: #003366;
+    padding: 15px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #DFCFBE;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+    margin: 20px auto;
+}
+
+#about {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+#about h2 {
+    font-size: 30px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+#about .personal-statement p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+#tech-hero {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tech-hero h1 {
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.hero-photo img {
+    width: 200px;
+    height: auto;
+}
+
+.hero-bio {
+    max-width: 800px;
+}
+
+.hero-bio h2, .hero-bio p {
+    text-align: center;
+}
+
+.hero-bio ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hero-bio ul li {
+    margin-bottom: 10px;
+}
+
+.hero-bio ul li a {
+    text-decoration: none;
+    color: #003366;
+}
+
+.hero-bio ul li a:hover {
+    color: #005f8d;
+}
+
+
+#resources {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resources h1 {
+    font-size: 40px;
+    color: #003366;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+#resources h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+#resources p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resources-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resources-list ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.resources-list ul li a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.resources-list ul li a:hover {
+    color: #005f8d;
+}
+
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #003366;
+}
+
+#contact ul li a:hover {
+    color: #005f8d;
+}
